@@ -1,0 +1,33 @@
+.circle_1 {
+  background-color: #E8E4DB;
+  width: 500px;
+  height: 500px;
+  border-radius: 59% 41% 61% 39% / 40% 48% 52% 60%;
+  position: absolute;
+  top: -80px;
+  right: -50px;
+  z-index: -3;
+}
+
+.circle_2 {
+  background-color: #D6D7A6;
+  width: 600px;
+  height: 600px;
+  border-radius: 43% 57% 53% 47% / 62% 39% 61% 38%;
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  z-index: -6;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  z-index: -3;
+}
+
+
+@media (max-width: 600px) {}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+.link_img {
+  width: 100%;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.link_img:hover {
+  opacity: 0.8;
+}
+
+.title {
+  font-family: 'Lustria', serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tags {
+  font-family: 'Lustria', serif;
+}
+
+.tags_ul {
+  display: flex;
+}
+
+.tags_li {
+  background-color: #D6D7A6;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+}

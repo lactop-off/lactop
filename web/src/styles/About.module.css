@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+.contents {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 80%;
+}
+
+.title_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-size: 60px;
+  font-family: 'Lustria', serif;
+}
+
+.title_head {
+  font-size: 120px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+
+/* 内容 */
+.discription {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}

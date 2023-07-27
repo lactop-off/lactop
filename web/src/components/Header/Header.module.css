@@ -1,0 +1,66 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+  /* ヘッダー */
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  .logoname1 {
+    font-size: 90px;
+    font-family: 'Lustria', serif;
+  }
+
+
+  /* メニュー */
+  .menu {
+    width: 70%;
+  }
+
+  .menu_ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lustria', serif;
+    font-size: 30px;
+  }
+
+  .a {
+    position: relative;
+    /*アンダーラインの位置を決めるための基準 */
+  }
+
+  .a::after {
+    position: absolute;
+    /*親要素であるaタグを基準に位置を指定*/
+    left: 0;
+    /*アンダーラインを各メニュー（aタグ）の左端に指定*/
+    content: '';
+    /*本来は、擬似要素に入るテキストなどを’’内に指定。今回はアンダーラインなので何も記載しない*/
+    width: 100%;
+    /*アンダーラインを各aタグの幅に合わせる*/
+    height: 2px;
+    /*アンダーラインの高さ（太さ）*/
+    background: #000000;
+    /*アンダーラインの色*/
+  }
+
+  .a::after {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #000000;
+    bottom: -1px;
+    /*アンダーラインが位置する、各リストの下端からの高さ　ヘッダーの下端に合わせています*/
+    visibility: hidden;
+    /*ホバー前に、アンダーラインを可視化しない*/
+  }
+
+  .a:hover::after {
+    visibility: visible;
+    /*ホバー後、アンダーラインを可視化する*/
+  }
